@@ -1,0 +1,11 @@
+# Pliki konfiguracyjne z hasłami
+config.php
+
+
+# Pliki logów i tymczasowe
+*.log
+*.sqlite
+*.env
+
+# Systemowe
+.DS_Store
