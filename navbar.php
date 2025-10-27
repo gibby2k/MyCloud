@@ -9,17 +9,12 @@
 
         <!-- Dropdown dla "Polecenia" -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Polecenia
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="test.php">fsockopen()</a></li>
-            <li><a class="dropdown-item" href="index1.php">host, port, stan</a></li>
-            <li><a class="dropdown-item" href="dodaj1.php">Dodaj</a></li>
-            <li><a class="dropdown-item" href="kasuj1.php">Usuń</a></li>
-            <!-- Dodaj inne polecenia w razie potrzeby -->        
-          </ul>
-        </li>
+<li class="nav-item">
+    <a class="nav-link" href="upload.php">Upload plików</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="file_list.php">Lista plików</a>
+</li>
         <!-- Form do logów uzytkowników -->
       <form class="d-flex ms-auto" action="user_log.php" method="post">
         <button class="btn btn-outline-blue" type="submit" >User logs</button>

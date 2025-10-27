@@ -22,11 +22,16 @@
     </div>
 
     <ul class="list-group">
-      <li class="list-group-item">
-        <a href="#" class="btn btn-outline-primary w-100">jest</a>
-      </li>
-
-    </ul>
+    <li class="list-group-item">
+        <a href="create_folder.php" class="btn btn-outline-primary w-100">Utwórz folder</a>
+    </li>
+    <li class="list-group-item">
+        <a href="upload.php" class="btn btn-outline-primary w-100">Prześlij plik</a>
+    </li>
+    <li class="list-group-item">
+        <a href="file_list.php" class="btn btn-outline-primary w-100">Lista plików</a>
+    </li>
+</ul>
   </div>
 
   <!-- Dodajemy skrypt do CDN Bootstrapa -->
